@@ -7,15 +7,15 @@
     background: #FFF8F3;
     background-image: url('../hdback.png'), url('../developer.png');
     background-repeat: no-repeat;
-    background-position: bottom right,left;
+    background-position: bottom right,left 23px top 50%;
 }
 nav{
      display: flex;
      justify-content: space-between;
      justify-content: space;
-     margin:50px 200px ; 
+     padding:50px 200px ; 
 
-
+ 
 }
 nav ul{
     display: flex;
@@ -30,32 +30,30 @@ nav li{
 .btn-primary{
     color: white;
     font-variant: normal;
-    
-    font-weight: 300;
-    font-size: 15px;
+    font-weight: 700;
+    font-size: 20px;
     border: none;
-    padding: 3px 7px;
-    height: 30px;
+    padding: 18px 30px;
     border-radius: 8px;
     background-color: #FD6E0A;
 
 
 }
-.section{
+.about{
     margin-top: 130px;
 }
 .Main-color{
     color: #FD6E0A;
 }
 .nav-title{
-    font-weight: 800px;
+    font-weight: 800;
     font-size: 50px;
 }
 /*nammer styles*/
 .banner{
-    margin: 0 200px;
+    margin: 0 28px 0 200px;
     display: flex;
-   align-items: center;
+    align-items: center;
     justify-content: space-between;
 
 }
@@ -65,13 +63,13 @@ nav li{
 }
 .banner-subtitle{
     font-weight: 600;
-font-size: 45px;
-margin-bottom: 25px;
+    font-size: 45px;
+    color: #474747;
 }
 .banner-discription{
     color: #757575;
     font-size: 18px;
-    margin-bottom: 10px;
+    margin: 20px 0 30px;
 }
 /*main section */
 main{
@@ -111,27 +109,30 @@ margin-bottom: 30px;
     color: #757575;
 }
 /* what i do styles */
+.section-title{
+    text-align: center;
+}
 .what-i-do{
    
     border-radius: 10px;
     padding: 130px 150px;
-    text-align: center;
 }
 .skill{
     background: #FFFFFF;
-box-shadow: 0px 6px 50px rgba(0, 0, 0, 0.06);
-border-radius: 5px;
-padding:30px
+    box-shadow: 0px 6px 50px rgba(0, 0, 0, 0.06);
+    border-radius: 5px;
+    padding:30px
 }
 .skills-container{
-    display: flex;
-    gap: 10px;
+    display: grid;
+    grid-template-columns: repeat(4,1fr);
+    
 }
 .skill-title{
     font-weight: 700;
-font-size: 20px;
-margin-top: 30px;
-margin-bottom: 20px;
+    font-size: 20px;
+    margin-top: 30px;
+    margin-bottom: 20px;
 }
 .skill-description{
 
@@ -163,6 +164,7 @@ margin-bottom: 20px;
 }
 .resume-button{
     margin-top: 50px;
+    margin-bottom: 130px;
     text-align: center;
 }
 
@@ -181,12 +183,12 @@ margin-bottom: 20px;
 .contact input, textarea{
     margin-bottom: 24px;
     border: 0;
-    weight: 100%;
-    padding:18px 30px;
-    margin: 3px 5px;
+    width: 100%;
+   
 }
 input{
-    height: 64px;
+    padding: 18px 0 18px 30px;
+    box-sizing: border-box;
 }
 .contact a{
     text-decoration: none;
